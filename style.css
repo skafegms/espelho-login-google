@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+img{
+    width: 70px;
+    margin-bottom: 10px;
+}
+.main-card{
+    width: 25vw;
+    height: 51vh;
+    border: 1px;
+    border-color: rgba(211, 209, 209, 0.712);
+    border-style: solid ;
+    border-radius: 10px;
+    padding: 50px 35px ;
+    word-break:normal
+}
+
+.main-card > h1{
+    font-weight: 8;
+    font-size: 22px;
+    margin:0;
+}
+
+.main-card > p{
+
+    font-size: 16px;
+    color: rgb(24, 24, 24);
+    margin:10px 0px 40px 0px;
+    cursor: text;
+    
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+    font-size: 12px;
+    color:rgba(41, 41, 41, 0.712) ;
+}
+
+.main-menu{
+    text-align: left;
+    width: 150px;
+    height: 30px;
+    margin-right: 120px;
+    border: 0px;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    color: rgba(77, 76, 76, 0.842);
+}
+.main-menu:hover{
+    background: rgba(238, 237, 237, 0.712);
+}
+
+.rodape >a{
+    margin:5px;
+    cursor: pointer;
+}
+
+
+
+input{
+    width: 100%;
+    height: 50px;
+    border: 1px;
+    border-color: rgba(211, 209, 209, 0.712);
+    border-style: solid ;
+    border-radius: 3px;
+    outline-color: rgba(0, 74, 233, 0.774);
+    padding: 0px 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    }
+.input >p{
+    margin-top:5px;
+    font-size: 15px;
+    text-align: left;
+    color: rgba(0, 74, 233, 0.774);
+    font-weight: 800;
+    cursor: pointer;
+
+}
+.text{
+    font-size: 13.5px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    text-align: left;
+    color: rgba(66, 66, 66, 0.712);
+}
+.text > b {
+    color:rgba(0, 74, 233, 0.774);
+    cursor: pointer;
+}
+
+.botoes{
+    width: 100%;
+}
+.criar-conta{
+
+    box-sizing: border-box;
+    margin-right: 56px;
+    width: 100px;
+    height: 35px;
+    border: 0px;
+    background: white;
+    color: rgba(0, 74, 233, 0.774);
+    cursor: pointer;
+    border-radius: 3px;
+}
+.criar-conta:hover{
+    background: rgb(243, 245, 250);
+}
+
+.avançar{
+    height: 35px;
+    width: 100px;
+    box-sizing: border-box;
+    color: white;
+    background:rgba(0, 74, 233, 0.774) ;
+    border: 0;
+    text-align: center;
+    border-radius: 3px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.avançar:hover{
+    background: rgba(2, 68, 211, 0.842) ;
+}
